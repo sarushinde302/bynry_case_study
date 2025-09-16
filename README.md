@@ -8,17 +8,29 @@ The goal was to design a test automation framework that validates **authenticati
 ## 📂 Project Structure
 
 bynry_case_study/
+
 ├─ pages/ # Page Object Model (POM) classes for UI
+
 │ ├─ login_page.py # Handles login-related actions
+
 │ └─ projects_page.py # Handles project page interactions
+
 ├─ services/ # Mock API client
+
 │ └─ api_client.py # Simulates project create/delete
+
 ├─ tests/ # Automated test cases
+
 │ ├─ test_auth_and_multi_tenant.py # Login + tenant isolation tests
+
 │ └─ test_project_creation_flow.py # End-to-end project creation flow
+
 ├─ conftest.py # Pytest + Playwright fixtures
+
 ├─ requirements.txt # Dependencies
+
 ├─ pytest.ini # Pytest config
+
 └─ README.md # Documentation (this file)
 
 ## ⚡ Features
