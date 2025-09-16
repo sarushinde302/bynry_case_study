@@ -1,0 +1,5 @@
+pytest
+playwright
+requests
+pytest-base-url
+python-slugify

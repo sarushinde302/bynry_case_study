@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# Environments
+.env
+.venv/
+venv/
+ENV/
+env/
+.venv.bak/
+
+# Pytest / Playwright
+.playwright/
+test-results/
+report.html
+
+# VS Code
+.vscode/
