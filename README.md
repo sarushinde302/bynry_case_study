@@ -33,19 +33,19 @@ bynry_case_study/
 
 └─ README.md # Documentation (this file)
 
-## ⚡ Features
+##  Features
 
 - **Pytest + Playwright** test framework.
 - **Page Object Model (POM)** structure for maintainability.
 - **Mock API client** (`api_client.py`) to simulate backend project creation/deletion.
 - **Tests implemented**:
-  - ✅ User login test.  
-  - ✅ Multi-tenant isolation test.  
-  - ✅ Project creation end-to-end test (desktop + mobile emulation + tenant isolation).
+  - User login test.  
+  - Multi-tenant isolation test.  
+  - Project creation end-to-end test (desktop + mobile emulation + tenant isolation).
 - **Cross-device validation**: desktop and **iPhone 13 emulation**.  
 - **Cleanup after tests** via API client.
 
-## 🛠️ Setup Instructions
+## Setup Instructions
 
 ### 1. Clone the repository
 git clone <your-repo-link>
