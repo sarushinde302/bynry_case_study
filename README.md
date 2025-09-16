@@ -3,9 +3,7 @@
 This repository contains my solution for the **Bynry QA Automation Engineer Intern** case study.  
 The goal was to design a test automation framework that validates **authentication, multi-tenant isolation, and project creation flows** using **Pytest + Playwright**.
 
----
-
-## 📂 Project Structure
+## Project Structure
 
 bynry_case_study/
 
